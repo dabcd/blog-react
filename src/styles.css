@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f7f4eb;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #303030;
+  margin: 10px;
+}
+
+.App {
+  width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.main-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.main-container h1,
+.main-container h2,
+.main-container h3 {
+  text-align: center;
+}
+
+.main-container h1 {
+  font-size: 1.75rem;
+  margin: 30px 0;
+}
+
+.main-container h2 {
+  margin-top: 0;
+}
+
+.main-container p {
+  text-indent: 20px;
+}
+
+.Post {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Post .image {
+  width: 320px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.Post .info {
+  margin: 15px;
+}
+
+.Post h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.Post .location-logo {
+  width: 10px;
+  margin-right: 8px;
+}
+
+.Post .date {
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.Post .description {
+  line-height: 150%;
+  text-indent: 25px;
+  margin: 10px;
+}
+
+.PostsPreview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.PostsPreview a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.PostsPreview a:hover {
+  opacity: 75%;
+}
+
+.PostsPreview .image {
+  object-fit: cover;
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.PostsPreview .title {
+  margin: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.Home .image {
+  display: block;
+  margin: 0 auto 30px auto;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.About .contact {
+  text-align: center;
+  margin-bottom: 30px;
+}
